@@ -36,7 +36,7 @@ if ( ! class_exists( 'CNCB_Link_Custom_Control' ) ) :
                     <span class="customize-control-description"><?php echo esc_html( $this->description ); ?></span>
                 <?php } ?>
                 <div class="link-container">
-                    <a href="#" id="cncb_step_2" class="cncb-link cncb-link-step" onclick="simulateClick()">Go to step 2</a>
+                    <a href="#" id="cncb_step_2" class="cncb-link cncb-link-step">Go to step 2</a>
                 </div>
             </div>
             <?php

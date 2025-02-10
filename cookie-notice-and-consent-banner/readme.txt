@@ -34,6 +34,11 @@ The plugin is useful in preparing your site for data protection and privacy regu
 * PDPL: Personal Data Protection Law (Bahrain)
 
 == Changelog ==
+= 1.7.7 - 10. FEB 2025 =
+* Fix: Issues with Dimensions & Space and Wizard sections 
+* Fix: Go to the next step link
+* Fix: Banner appears in customizer Preview mode
+
 = 1.7.6 - 04. APRIL 2023 =
 * Fix: Preview customizer issue
 

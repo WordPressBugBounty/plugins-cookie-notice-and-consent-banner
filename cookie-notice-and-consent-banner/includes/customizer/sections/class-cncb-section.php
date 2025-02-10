@@ -39,8 +39,9 @@ class CNCB_Section extends WP_Customize_Section {
 				<p class="customize-control-description customize-section-title-menu_locations-description"><?php echo esc_html( $custom_description ); ?></p>
 			<?php endif; ?>
 			<h3 class="accordion-section-title cncb-accordion-section-title">
-				<?php echo esc_html( $this->title ); ?>
-				<span class="screen-reader-text"><?php esc_html_e( 'Press return or enter to open this section' ); ?></span>
+        <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="<?php echo esc_attr( $this->id ); ?>-content">
+          <?php echo esc_html( $this->title ); ?>
+        </button>
 			</h3>
 			<ul class="accordion-section-content">
 				<li class="customize-section-description-container section-meta
