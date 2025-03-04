@@ -170,19 +170,24 @@ if ( ! class_exists( 'CNCB_Admin' ) ) :
 			add_menu_page(
                 esc_html__( 'Cookie Consent', 'cookie-notice-and-consent-banner' ),
                 esc_html__( 'Cookie Consent', 'cookie-notice-and-consent-banner' ),
-				'read',
+				'manage_options',
 				$this->menu_slug,
 				array( $this, 'options_page' ),
 				'dashicons-shield',
 				$this->menu_pos
 			);
-
-			add_submenu_page( 'cncb_options', '', '', 'manage_options', 'cncb_manage_options' );
-            // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
-			$submenu[ $this->menu_slug ][0][0] = esc_html__( 'Settings', 'cookie-notice-and-consent-banner' );
-            // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
-			$submenu[ $this->menu_slug ][1] = array( esc_html__( 'Customize Design', 'cookie-notice-and-consent-banner' ), 'manage_options', $this->get_customizer_panel_url() );
-		}
+      
+      if (current_user_can('manage_options')) {
+        add_submenu_page( 'cncb_options', '', '', 'manage_options', 'cncb_manage_options' );
+            
+        if (isset($submenu[$this->menu_slug])) {
+          // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
+          $submenu[ $this->menu_slug ][0][0] = esc_html__( 'Settings', 'cookie-notice-and-consent-banner' );
+              // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
+          $submenu[ $this->menu_slug ][1] = array( esc_html__( 'Customize Design', 'cookie-notice-and-consent-banner' ), 'manage_options', $this->get_customizer_panel_url() );
+        }
+      }
+    }
 
 		/**
 		 * Render admin option page

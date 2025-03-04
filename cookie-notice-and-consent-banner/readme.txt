@@ -5,7 +5,7 @@ Author: GRPR
 Contributors: artemari, kaganvmz
 Tags: Cookie, GDPR, CCPA, Compliance, Cookie Consent, Cookie Notice, Cookie banner, Privacy, Cookie Compliance, Law, Compliant
 Requires at least: 5.0
-Tested up to: 6.7.1
+Tested up to: 6.7.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +34,9 @@ The plugin is useful in preparing your site for data protection and privacy regu
 * PDPL: Personal Data Protection Law (Bahrain)
 
 == Changelog ==
+= 1.7.8 - 4. MAR 2025 =
+* Fix: Undefined array key 2 in file when user role is author or editor
+
 = 1.7.7 - 10. FEB 2025 =
 * Fix: Issues with Dimensions & Space and Wizard sections 
 * Fix: Go to the next step link
