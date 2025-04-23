@@ -60,7 +60,7 @@ class CNCB_Banner_Helper {
 			),
 			'link'              => array(
 				'html'        => get_theme_mod( 'cncb_widget_link_text', esc_html__( 'GDPR', 'cookie-notice-and-consent-banner' ) ),
-				'href'        => get_theme_mod( 'cncb_widget_link_href', esc_attr__( 'https://gdpratlas.com/' ) ),
+				'href'        => get_theme_mod( 'cncb_widget_link_href', esc_attr__( 'https://gdprdigest.com/' ) ),
 				'styles'      => array(
 					'color'       => get_theme_mod( 'cncb_link_color' ) ? get_theme_mod( 'cncb_link_color' ) : 'is_filtered',
 					'font-family' => get_theme_mod( 'cncb_text_font_family' ) ? get_theme_mod( 'cncb_text_font_family' ) : 'is_filtered',

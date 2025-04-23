@@ -1,11 +1,11 @@
 === Cookie Notice & Consent Banner for GDPR & CCPA Compliance ===
-Author URI: https://gdpratlas.com
-Plugin URI: https://gdpratlas.com
+Author URI: https://gdprdigest.com
+Plugin URI: https://gdprdigest.com
 Author: GRPR
 Contributors: artemari, kaganvmz
 Tags: Cookie, GDPR, CCPA, Compliance, Cookie Consent, Cookie Notice, Cookie banner, Privacy, Cookie Compliance, Law, Compliant
 Requires at least: 5.0
-Tested up to: 6.7.2
+Tested up to: 6.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,6 +43,9 @@ The plugin is useful in preparing your site for data protection and privacy regu
 * LFPDPPP: Federal Law on Protection of Personal Data (Mexico)	
 
 == Changelog ==
+= 1.7.10 - 23. APRIL 2025 =
+* Fix: Minor changes
+
 = 1.7.9 - 3. APRIL 2025 =
 * Fix: Minor changes
 

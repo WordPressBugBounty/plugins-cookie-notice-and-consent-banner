@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Cookie Notice and Consent Banner
  * Description: Cookie Notice or Consent Banner as Required by Privacy Laws (GDPR & CCPA). Easily Customizable to Fit Your Design.
- * Version: 1.7.9
+ * Version: 1.7.10
  * Author: GDPR
- * Author URI: https://gdpratlas.com
+ * Author URI: https://gdprdigest.com
  * Text Domain: cookie-notice-and-consent-banner
  * Domain Path: /languages
  *
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'CNCB_VERSION', '1.7.9' );
+define( 'CNCB_VERSION', '1.7.10' );
 define( 'CNCB_PREFIX', 'cncb' );
 define( 'CNCB_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'CNCB_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
