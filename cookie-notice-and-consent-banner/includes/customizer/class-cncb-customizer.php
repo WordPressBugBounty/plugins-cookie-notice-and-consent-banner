@@ -591,7 +591,7 @@ class CNCB_Customizer {
             'cncb_widget_link_href',
             array(
                 'transport' => 'postMessage',
-                'default'   => esc_attr__( 'https://gdprdigest.com', 'cookie-notice-and-consent-banner' ),
+                'default'   => esc_attr__( 'https://gdprinfo.eu', 'cookie-notice-and-consent-banner' ),
                 'sanitize_callback' => 'cncb_text_sanitization',
             )
         );

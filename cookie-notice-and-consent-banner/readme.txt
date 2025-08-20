@@ -1,6 +1,6 @@
 === Cookie Notice & Consent Banner for GDPR & CCPA Compliance ===
-Author URI: https://gdprdigest.com
-Plugin URI: https://gdprdigest.com
+Author URI: https://gdprinfo.eu
+Plugin URI: https://gdprinfo.eu
 Author: GRPR
 Contributors: artemari, kaganvmz
 Tags: Cookie, GDPR, CCPA, Compliance, Cookie Consent, Cookie Notice, Cookie banner, Privacy, Cookie Compliance, Law, Compliant

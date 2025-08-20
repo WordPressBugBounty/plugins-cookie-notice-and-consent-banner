@@ -563,8 +563,8 @@ msgstr "РАЗРЕШИТЬ"
 
 #: includes/helpers/class-cncb-banner-helper.php:63
 #: includes/customizer/class-cncb-customizer.php:589
-msgid "https://gdprdigest.com/"
-msgstr "https://gdprdigest.com/"
+msgid "https://gdprinfo.eu/"
+msgstr "https://gdprinfo.eu/"
 
 #: includes/helpers/class-cncb-banner-helper.php:62
 #: includes/customizer/class-cncb-customizer.php:572

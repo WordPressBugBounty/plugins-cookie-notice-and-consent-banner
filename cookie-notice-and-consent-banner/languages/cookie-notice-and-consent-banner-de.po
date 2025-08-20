@@ -259,7 +259,7 @@ msgstr ""
 
 #: includes/customizer/class-cncb-customizer.php:418
 #: includes/helpers/class-cncb-banner-helper.php:63
-msgid "https://gdprdigest.com/"
+msgid "https://gdprinfo.eu/"
 msgstr ""
 
 #: includes/customizer/class-cncb-customizer.php:426
