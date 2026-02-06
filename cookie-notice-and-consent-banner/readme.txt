@@ -43,6 +43,8 @@ The plugin is useful in preparing your site for data protection and privacy regu
 * LFPDPPP: Federal Law on Protection of Personal Data (Mexico)	
 
 == Changelog ==
+= 1.7.14 - 29. OCTOBER 2025 =
+* Fix: Minor changes
 
 = 1.7.12 - 26. AUGUST 2025 =
 * Security: Fixed XSS vulnerability in revoke_consent shortcode text attribute
