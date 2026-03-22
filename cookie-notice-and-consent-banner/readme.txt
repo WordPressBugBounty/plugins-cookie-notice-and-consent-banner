@@ -1,11 +1,11 @@
-=== Cookie Notice & Consent Banner for GDPR & CCPA Compliance ===
+=== Free Cookie Notice & Consent Banner for Privacy Compliance (GDPR, CCPA, DSGVO and others) ===
 Author URI: https://gdprinfo.eu
 Plugin URI: https://gdprinfo.eu
 Author: GRPR
 Contributors: artemari, kaganvmz
 Tags: Cookie, GDPR, CCPA, Compliance, Cookie Consent, Cookie Notice, Cookie banner, Privacy, Cookie Compliance, Law, Compliant
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
